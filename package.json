@@ -1,0 +1,15 @@
+{
+  "name": "TestPr",
+  "version": "1.0.0",
+  "dependencies": {},
+  "wallaby": {
+    "slowTestThreshold": 200
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
